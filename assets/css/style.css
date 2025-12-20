@@ -134,7 +134,7 @@ aside {
     padding: 0px;
 }
 
-.competence {
+.competences ul li {
     display: flex;
     justify-content: space-between;
 }

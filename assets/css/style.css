@@ -10,7 +10,6 @@ body {
 
 main {
     display: flex;
-    flex: wrap;
     justify-content: space-around;
 }
 
@@ -202,7 +201,7 @@ aside {
     font-family: 'raleway';
 }
 
-time {
+.time {
     color: #17abb3;
     font-size: 0.8em;
     margin-bottom: 0px;

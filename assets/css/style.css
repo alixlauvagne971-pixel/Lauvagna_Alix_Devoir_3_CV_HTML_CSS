@@ -246,3 +246,48 @@ article {
 
 
 
+/*Footer*/
+footer {
+    background-color: #17abb3;
+    margin: 0px;
+    padding: 20px 20px 10px 20px;
+    min-height: 60px;
+    font-family: 'raleway';
+    font-size: small;
+    font-style: italic;
+    color: #ffffff;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+}
+
+footer div a {
+    margin: 10px;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+footer p time {
+    all: initial;
+    font-family: 'raleway';
+    font-size: small;
+    font-style: italic;
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+/*Effet dynamique réseaux sociaux*/
+.social a img {
+    transition: opacity 0.2s ease;
+}
+
+.social a:hover img {
+    opacity: 0.7;
+}

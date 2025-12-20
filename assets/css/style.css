@@ -191,3 +191,58 @@ aside {
   color: #17abb3;
   font-size: 1.4em;
 }
+
+
+
+
+/*Contenu principal*/
+.principal {
+    padding: 10px 50px 20px 50px;
+    background-color: #ffffff;
+    font-family: 'raleway';
+}
+
+time {
+    color: #17abb3;
+    font-size: 0.8em;
+    margin-bottom: 0px;
+}
+
+article p {
+    margin: 0px;
+    padding: 0;
+    font-size: small;
+    font-style: italic;
+}
+
+article {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.profil {
+    text-indent: 20px;
+}
+
+
+/* Formations*/
+.cv-item-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 25px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+/*Effets contenu principal*/
+
+.cv-item:hover{
+    background-color: #e3e3e3;
+    box-shadow: inset 4px 0 0 #17abb3;
+}
+
+
+
+

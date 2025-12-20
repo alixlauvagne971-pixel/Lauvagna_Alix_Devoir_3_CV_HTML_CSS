@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/*mise en place générale*/
+body {
+    width: 1160px;
+    margin: auto;
+    background-color: #f5f5f5;
+}
+
+main {
+    display: flex;
+    flex: wrap;
+    justify-content: space-around;
+}
+
+
+
+
+/*les titres*/
+h1 {
+    font-family: 'lato';
+    font-size: 2.6em;
+    color: #ffffff;
+    margin: 0px 0px 0px 20px;
+}
+
+h2 {
+    font-family: 'lato';
+    font-size: 1em;
+    color: #ffffff;
+    margin: 10px 0px 10px 30px;
+}
+
+h3 {
+    font-family: 'lato';
+    font-weight: 400;
+    font-size: 1em;
+    color: #17abb3;
+    border-bottom: 0.5px solid grey;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    font-family: 'lato';
+    font-size: 0.9em;
+    margin-bottom: 0px;
+}
+
+
+
+/*Header*/
+header {
+    background-color: #17abb3;
+    max-height: 240px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+/*Photo de profil*/
+.photo-profil img {
+    width: 115px;
+    height: 115px;
+    border-radius: 100%;
+    border: 3px solid #ffffff;
+    margin: 50px 90px 40px 90px;
+}
+
+/*Effet photo de profil*/
+.photo-profil {
+    cursor: zoom-in; 
+}
+
+.photo-profil:hover img {
+    transform: scale(1.3); 
+}
+
+
+
+.infos {
+    margin: auto;
+}
+
+/*Infos header*/
+.contact ul {
+    font-family: 'raleway';
+    font-size: 0.8em;
+    list-style: none;
+    padding: 0;
+    margin: 0px 0px 0px 40px;
+
+    display: flex;
+    flex-wrap: wrap;          
+    gap: 12px;          
+}
+
+.contact ul li {
+    flex: 0 0 calc(50% - 20px);
+    display: flex;
+    align-items: center;
+}
+
+.contact ul li img {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+.contact a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+/*Barre de Gauche*/
+aside {
+    padding: 10px 50px 20px 50px;
+    width: 500px;
+    background-color: #e3e3e3;
+    font-family: 'raleway';
+    font-family: 0.8em;
+}
+
+
+/*Compétences*/
+.competences ul {
+    list-style: none;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+
+.competence {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/*Langues*/
+.langue ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0px 0px 0px;
+}
+
+.langue li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  font-size: 0.8em;
+}
+
+.list-lang {
+    font-weight: bold;
+}
+
+
+
+/*Qualités*/
+.qualités ul {
+    font-size: 0.8em;
+    list-style-type: square;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    padding-left: 20px;
+}
+
+.qualités ul li::marker {
+  color: #17abb3;
+  font-size: 1.4em;
+}
+
+
+
+/*Centre d'intérêts*/
+.activités ul {
+    font-size: 0.8em;
+    list-style-type: square;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    padding-left: 20px;
+}
+
+.activités ul li::marker {
+  color: #17abb3;
+  font-size: 1.4em;
+}
+
+
+
+
+/*Contenu principal*/
+.principal {
+    padding: 10px 50px 20px 50px;
+    background-color: #ffffff;
+    font-family: 'raleway';
+}
+
+time {
+    color: #17abb3;
+    font-size: 0.8em;
+    margin-bottom: 0px;
+}
+
+article p {
+    margin: 0px;
+    padding: 0;
+    font-size: small;
+    font-style: italic;
+}
+
+article {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.profil {
+    text-indent: 20px;
+}
+
+
+/* Formations*/
+.cv-item-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 25px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+/*Effets contenu principal*/
+
+.cv-item:hover{
+    background-color: #e3e3e3;
+    box-shadow: inset 4px 0 0 #17abb3;
+}
+
+
+
+
+/*Footer*/
+footer {
+    background-color: #17abb3;
+    margin: 0px;
+    padding: 20px 20px 10px 20px;
+    min-height: 60px;
+    font-family: 'raleway';
+    font-size: small;
+    font-style: italic;
+    color: #ffffff;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+}
+
+footer div a {
+    margin: 10px;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+footer p time {
+    all: initial;
+    font-family: 'raleway';
+    font-size: small;
+    font-style: italic;
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+/*Effet dynamique réseaux sociaux*/
+.social a img {
+    transition: opacity 0.2s ease;
+}
+
+.social a:hover img {
+    opacity: 0.7;
+}

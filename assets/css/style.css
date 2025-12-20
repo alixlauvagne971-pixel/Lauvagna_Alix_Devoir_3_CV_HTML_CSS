@@ -112,3 +112,82 @@ header {
     color: #ffffff;
     text-decoration: none;
 }
+
+
+
+/*Barre de Gauche*/
+aside {
+    padding: 10px 50px 20px 50px;
+    width: 500px;
+    background-color: #e3e3e3;
+    font-family: 'raleway';
+    font-family: 0.8em;
+}
+
+
+/*Compétences*/
+.competences ul {
+    list-style: none;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+}
+
+.competence {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/*Langues*/
+.langue ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0px 0px 0px;
+}
+
+.langue li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  font-size: 0.8em;
+}
+
+.list-lang {
+    font-weight: bold;
+}
+
+
+
+/*Qualités*/
+.qualités ul {
+    font-size: 0.8em;
+    list-style-type: square;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    padding-left: 20px;
+}
+
+.qualités ul li::marker {
+  color: #17abb3;
+  font-size: 1.4em;
+}
+
+
+
+/*Centre d'intérêts*/
+.activités ul {
+    font-size: 0.8em;
+    list-style-type: square;
+    margin: 20px 0px 0px 0px;
+    padding: 0px;
+    padding-left: 20px;
+}
+
+.activités ul li::marker {
+  color: #17abb3;
+  font-size: 1.4em;
+}

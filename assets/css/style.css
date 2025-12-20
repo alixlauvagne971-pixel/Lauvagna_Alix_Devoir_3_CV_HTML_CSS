@@ -10,7 +10,6 @@ body {
 
 main {
     display: flex;
-    flex: wrap;
     justify-content: space-around;
 }
 
@@ -121,7 +120,6 @@ aside {
     width: 500px;
     background-color: #e3e3e3;
     font-family: 'raleway';
-    font-family: 0.8em;
 }
 
 
@@ -134,7 +132,7 @@ aside {
     padding: 0px;
 }
 
-.competence {
+.competences ul li {
     display: flex;
     justify-content: space-between;
 }
@@ -202,7 +200,7 @@ aside {
     font-family: 'raleway';
 }
 
-time {
+.time {
     color: #17abb3;
     font-size: 0.8em;
     margin-bottom: 0px;
@@ -237,7 +235,6 @@ article {
 }
 
 /*Effets contenu principal*/
-
 .cv-item:hover{
     background-color: #e3e3e3;
     box-shadow: inset 4px 0 0 #17abb3;
